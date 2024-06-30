@@ -9,7 +9,7 @@ namespace DrvrApi.Controllers
     public class ScoresController : ControllerBase
     {
         private string filePath = "C:\\Users\\User\\source\\repos\\DrvrApi\\DrvrApi\\Controllers\\scores.txt";
-
+        private string content;
 
         [HttpGet("GetScores")]
         public async Task<IActionResult> GetScores()
@@ -39,6 +39,22 @@ namespace DrvrApi.Controllers
                 await System.IO.File.AppendAllTextAsync(filePath, score + Environment.NewLine);
 
                 return Ok("Score added successfully.");
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine($"An error occurred: {ex.Message}");
+                return StatusCode(500, "Internal server error");
+            }
+        }
+
+        [HttpDelete("DeleteAllScores")]
+        public async Task<IActionResult> DeleteAllScores()
+        {
+            try
+            {
+                using (FileStream fs = new FileStream(filePath, FileMode.Truncate)) { }
+
+                return Ok("File cleared successfully.");
             }
             catch (Exception ex)
             {
