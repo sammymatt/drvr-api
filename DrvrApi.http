@@ -1,0 +1,6 @@
+@DrvrApi_HostAddress = http://localhost:5163
+
+GET {{DrvrApi_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
