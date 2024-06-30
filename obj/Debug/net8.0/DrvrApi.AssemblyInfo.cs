@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("DrvrApi")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e787258fd611b9b2428ac0d0e52d270f007de0b5")]
 [assembly: System.Reflection.AssemblyProductAttribute("DrvrApi")]
 [assembly: System.Reflection.AssemblyTitleAttribute("DrvrApi")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -30,3 +30,4 @@ C:\Users\User\source\repos\DrvrApi\DrvrApi\obj\Debug\net8.0\refint\DrvrApi.dll
 C:\Users\User\source\repos\DrvrApi\DrvrApi\obj\Debug\net8.0\DrvrApi.pdb
 C:\Users\User\source\repos\DrvrApi\DrvrApi\obj\Debug\net8.0\DrvrApi.genruntimeconfig.cache
 C:\Users\User\source\repos\DrvrApi\DrvrApi\obj\Debug\net8.0\ref\DrvrApi.dll
+C:\Users\User\source\repos\DrvrApi\DrvrApi\obj\Debug\net8.0\DrvrApi.sourcelink.json
